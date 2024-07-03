@@ -1,0 +1,74 @@
+## What is AI?
+When Human Intelligence is induced in machines, especially in computer systems it is said to be AI.
+
+```mermaid
+graph TD
+    A[AI Models]
+    A --> B[ML Models]
+    A --> C[DL Models]
+
+```
+- Stacks are used in ML models
+- Neural Network are used in DL Model
+
+Deep Learning was brought when ML Models were not able to train on large datasets. The larger the data given the better the DL Model performs.
+
+
+## Discriminative VS Generative AI
+- Discriminative Ai is used in classification , regression etc.
+- d
+
+
+### The main motive of Generative AI is generation, but it can also perform a few tasks of classification.
+
+----
+## What is Prompt Engineering?
+
+Designing input query(prompt) to provide optimized(*low cost*) and quality output for AI models.
+- Domain knowledge is very important for prompt engineering.
+
+INPUT  ---------> MODEL -----------> OUTPUT
+
+---
+## Language Model(LLM) VS Vision Model
+
+| Language Model (LLM)                                                              | Vision Models                                                                            |
+| --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| - Works with text data.                                                           | - Works with image/video data.                                                           |
+| - Has Transformer Architechture.<br>(designed  for seq-to-seq task and text data) | - Has Convolutional Neural Network Architechture.<br>(designed specially for image data) |
+| - Used in text generation, summarization etc.                                     | - Used in Image and Video generation, image recognition, object detection etc.           |
+| - Extension of NLP                                                                | - Extenssion of Co,puter Vision (CV).                                                    |
+| eg:- GPT, BERT                                                                    | eg:- Dffusion Model                                                                      |
+
+----
+## What is Image generation model?
+These type of model takes in data in the form of text, image, video, noise etc. and then generates a new image accordingly.
+
+INPUT(text, image, noise etc.)------------> IMAGE GENERATION MODEL -------------> OUTPUT
+
+### Conditional Image Generation
+Takes input data as text, image, noise and generates conditional images as output accordingly
+
+- Here noise is used because the model generates the output one the basis of noise and conditional input provided.
+
+### Unconditional Image Generation
+The model takes in input in the form of noise and generates images.
+1. GAN : Generative adversarial network 
+2. DDPM : Denoising Diffusion Probablistic model
+NOISE-------> IMAGE GENERATION MODEL ---------> OUTPUT IMAGE
+
+
+# Some popular Vision Model
+- Midjourney by Midjourney
+- DALL-E by OPEN AI
+- Stable Diffusion by Stability AI
+- Imagen by Google
+
+
+## GEN_AI WORKFLOW
+
+### ML WORKFLOW:
+#### Get Labled data -----> Train the Model on that data ------> Deploy
+
+### DL WORKFLOW:
+### Provide Prompt --------> deploy
